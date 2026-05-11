@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Abdou Aziz</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <style>
+    *{
+      font-family:'Space Grotesk',sans-serif;
+      scroll-behavior:smooth;
+    }
+
+    body{
+      background:#030712;
+      overflow-x:hidden;
+    }
+
+    .glass{
+      background:rgba(255,255,255,0.04);
+      backdrop-filter:blur(20px);
+      border:1px solid rgba(255,255,255,0.06);
+    }
+
+    .glow{
+      box-shadow:0 0 50px rgba(99,102,241,.25);
+    }
+
+    .gradient-text{
+      background:linear-gradient(to right,#60a5fa,#a855f7,#ec4899);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+
+    .bg-grid{
+      background-image:
+      linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),
+      linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);
+      background-size:60px 60px;
+    }
+  </style>
+</head>
+
+<body class="text-white bg-grid">
+
+<div class="fixed top-0 left-0 w-[500px] h-[500px] bg-cyan-500/20 blur-[120px] rounded-full"></div>
+<div class="fixed bottom-0 right-0 w-[500px] h-[500px] bg-purple-500/20 blur-[120px] rounded-full"></div>
+
+
+<div class="hidden lg:flex fixed left-5 top-1/2 -translate-y-1/2 z-50 flex-col items-center gap-5">
+
+  <div class="text-2xl font-black mb-4">
+    <span class="gradient-text">2A2S</span>
+  </div>
+
+  <a href="#hero" class="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-400 to-purple-500 flex items-center justify-center glow">
+    🏠
+  </a>
+
+  <a href="#about" class="w-12 h-12 rounded-2xl glass flex items-center justify-center hover:bg-white/10 transition">
+    👤
+  </a>
+
+  <a href="#formation" class="w-12 h-12 rounded-2xl glass flex items-center justify-center hover:bg-white/10 transition">
+    🎓
+  </a>
+
+  <a href="#skills" class="w-12 h-12 rounded-2xl glass flex items-center justify-center hover:bg-white/10 transition">
+    ⚡
+  </a>
+
+  <a href="#projects" class="w-12 h-12 rounded-2xl glass flex items-center justify-center hover:bg-white/10 transition">
+    💻
+  </a>
+
+  <a href="#contact" class="w-12 h-12 rounded-2xl glass flex items-center justify-center hover:bg-white/10 transition">
+    ✉️
+  </a>
+
+</div>
+
+
+<div class="max-w-[1600px] mx-auto p-6 lg:pl-28">
+
+<div class="grid lg:grid-cols-3 gap-6">
+
+
+<div class="space-y-6">
+
+
+<section id="hero" class="glass rounded-[2rem] p-8 min-h-[560px] relative overflow-hidden">
+
+<div class="absolute top-10 right-10 w-72 h-72 bg-purple-500/20 blur-[100px] rounded-full"></div>
+
+<div class="inline-flex items-center gap-3 px-5 py-2 rounded-full glass mb-8">
+<div class="w-3 h-3 rounded-full bg-green-400 animate-pulse"></div>
+<span class="text-sm">Disponible pour de nouveaux projets</span>
+</div>
+
+<h1 class="text-5xl font-black leading-tight mb-6">
+Je transforme des
+<span class="gradient-text">idées en expériences digitales uniques</span>
+</h1>
+
+<p class="text-gray-400 leading-relaxed mb-8">
+Étudiant en Génie Informatique & passionné par le développement web moderne.
+</p>
+
+<button class="px-8 py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 text-black font-bold glow hover:scale-105 transition">
+Découvrir mon travail
+</button>
+
+<div class="mt-12 flex justify-center relative">
+
+<div class="absolute w-[300px] h-[300px] border border-cyan-400/30 rounded-full animate-pulse"></div>
+
+<img
+src="ma photo.jpeg"
+class="w-72 h-72 rounded-full object-cover border-4 border-cyan-400/50 relative z-10"
+/>
+
+</div>
+
+</section>
+
+<section id="about" class="glass rounded-[2rem] p-8">
+
+<p class="text-gray-500 mb-2">02</p>
+
+<h2 class="text-4xl font-black mb-6">
+À propos <span class="gradient-text">de moi</span>
+</h2>
+
+<p class="text-gray-400 leading-relaxed mb-8">
+Je suis étudiant en Licence 2 en Génie informatique à l'UNIPRO et à l’Université Numérique Cheikh Hamidou Kane en Informatique Développement d'Application. 
+Passionné par le développement web, d'application, je crée des interfaces modernes et responsives avec HTML, CSS, JavaScript et PHP. 
+J’aime apprendre de nouvelles technologies et travailler sur des projets créatifs et fonctionnels.
+</p>
+
+<div class="grid grid-cols-2 gap-4 mb-8">
+
+<div class="glass rounded-2xl p-5">
+<p class="text-gray-400 text-sm">Prénom & Nom</p>
+<h3 class="font-bold">Abdou Aziz Sy Sow</h3>
+</div>
+
+<div class="glass rounded-2xl p-5">
+<p class="text-gray-400 text-sm">Âge</p>
+<h3 class="font-bold">22 ans</h3>
+</div>
+
+<div class="glass rounded-2xl p-5">
+<p class="text-gray-400 text-sm">Ville</p>
+<h3 class="font-bold">Dakar</h3>
+</div>
+
+<div class="glass rounded-2xl p-5">
+<p class="text-gray-400 text-sm">Email</p>
+<h3 class="font-bold">abdouazizsysow6@gmail.com</h3>
+</div>
+
+</div>
+
+<div class="grid grid-cols-3 gap-4 mt-8">
+
+<div class="glass rounded-2xl p-5 text-center">
+<h3 class="text-2xl font-black gradient-text">2+</h3>
+<p class="text-sm text-gray-400">Années</p>
+</div>
+
+<div class="glass rounded-2xl p-5 text-center">
+<h3 class="text-2xl font-black gradient-text">10+</h3>
+<p class="text-sm text-gray-400">Projets</p>
+</div>
+
+<div class="glass rounded-2xl p-5 text-center">
+<h3 class="text-xl font-black gradient-text">100%</h3>
+<p class="text-sm text-gray-400">Passion</p>
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+<div class="space-y-6">
+
+<section id="formation" class="glass rounded-[2rem] p-8">
+
+<p class="text-gray-500 mb-2">03</p>
+
+<h2 class="text-4xl font-black mb-10">
+Ma <span class="gradient-text">formation</span>
+</h2>
+
+<div class="space-y-5">
+
+<div class="glass rounded-2xl p-6 flex justify-between items-start">
+<div>
+<p class="text-cyan-400 text-sm mb-2">2024 - 2026</p>
+<h3 class="text-xl font-bold">Licence 2 Génie Informatique</h3>
+<p class="text-gray-400 mt-2 text-sm">
+Univers Professionnelle (UNIPRO)
+</p>
+</div>
+
+<div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-400 to-purple-500 flex items-center justify-center text-2xl">
+🎓
+</div>
+</div>
+
+<div class="glass rounded-2xl p-6 flex justify-between items-start">
+<div>
+<p class="text-cyan-400 text-sm mb-2">2024 - 2026</p>
+<h3 class="text-xl font-bold">Licence 1 en Informatique Développement d'Application</h3>
+<p class="text-gray-400 mt-2 text-sm">
+Université Numérique Cheikh Hamidou Kane
+</p>
+</div>
+
+<div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center text-2xl">
+🎓
+</div>
+</div>
+
+<div class="glass rounded-2xl p-6 flex justify-between items-start">
+<div>
+<p class="text-cyan-400 text-sm mb-2">2023 - 2024</p>
+<h3 class="text-xl font-bold">Baccaleauréat Série Scientifique S2</h3>
+<p class="text-gray-400 mt-2 text-sm">
+Lycée Mixte Maurice Delafosse
+</p>
+</div>
+
+<div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center text-2xl">
+🎓
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section class="glass rounded-[2rem] p-8">
+
+<p class="text-gray-500 mb-2">04</p>
+
+<h2 class="text-4xl font-black mb-10">
+Mes <span class="gradient-text">expériences</span>
+</h2>
+
+<div class="space-y-5">
+
+<div class="glass rounded-2xl p-6">
+<p class="text-cyan-400 text-sm mb-2">2024 - 2025</p>
+<h3 class="text-xl font-bold mb-3">
+Stagiaire Développeur Web au TGI 
+</h3>
+
+<p class="text-gray-400 text-sm leading-relaxed">
+Développement de projets web avec PHP, HTML, CSS , XAMPP , créations d'affiches et de logos.
+</p>
+</div>
+
+<div class="glass rounded-2xl p-6">
+<p class="text-cyan-400 text-sm mb-2">2024</p>
+<h3 class="text-xl font-bold mb-3">
+Projets Académiques
+</h3>
+
+<p class="text-gray-400 text-sm leading-relaxed">
+Création d’applications web et projets frontend.
+</p>
+</div>
+
+<div class="glass rounded-2xl p-6">
+<p class="text-cyan-400 text-sm mb-2">2020 - 2023</p>
+<h3 class="text-xl font-bold mb-3">
+Sécretaire Générale d'une association Deff Guirr Yallah (DFGY)
+</h3>
+
+<p class="text-gray-400 text-sm leading-relaxed">
+Gestion administrative et organisationnelle de l'association pour les activités et événements.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="contact" class="glass rounded-[2rem] p-8">
+
+<p class="text-gray-500 mb-2">07</p>
+
+<h2 class="text-4xl font-black mb-8">
+Me <span class="gradient-text">contacter</span>
+</h2>
+
+<div class="space-y-4">
+
+<input
+type="text"
+placeholder="Nom complet"
+class="w-full p-4 rounded-2xl bg-black/30 border border-white/10 outline-none"
+/>
+
+<input
+type="email"
+placeholder="Email"
+class="w-full p-4 rounded-2xl bg-black/30 border border-white/10 outline-none"
+/>
+
+<textarea
+rows="5"
+placeholder="Votre message"
+class="w-full p-4 rounded-2xl bg-black/30 border border-white/10 outline-none"
+></textarea>
+
+<button class="w-full py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 text-black font-bold glow">
+Envoyer le message
+</button>
+
+</div>
+
+</section>
+
+</div>
+
+<div class="space-y-6">
+
+
+<section id="skills" class="glass rounded-[2rem] p-8">
+
+<p class="text-gray-500 mb-2">05</p>
+
+<h2 class="text-4xl font-black mb-10">
+Mes <span class="gradient-text">compétences</span>
+</h2>
+
+<div class="grid grid-cols-2 gap-5">
+
+<div class="glass rounded-2xl p-6 text-center">
+
+    <img 
+        src="logo html.png" 
+        alt="HTML Logo"
+        class="w-16 h-16 mx-auto mb-4"
+    >
+    <h3 class="text-xl font-bold mb-4">HTML</h3>
+
+    <div class="h-2 bg-white/10 rounded-full overflow-hidden">
+        <div class="w-[90%] h-full bg-cyan-400 rounded-full"></div>
+    </div>
+
+</div>
+
+<div class="glass rounded-2xl p-6 text-center">
+
+    <img 
+        src="css3-logo.svg" 
+        alt="CSS Logo"
+        class="w-16 h-16 mx-auto mb-4"
+    >
+    <h3 class="text-xl font-bold mb-2">CSS</h3>
+
+    <div class="h-2 bg-white/10 rounded-full overflow-hidden">
+        <div class="w-[70%] h-full bg-purple-400 rounded-full"></div>
+    </div>
+</div>
+
+<div class="glass rounded-2xl p-6 text-center">
+
+    <img 
+        src="logo javascript.png" 
+        alt="JavaScript Logo"
+        class="w-16 h-16 mx-auto mb-4 rounded-lg"
+    >
+    <h3 class="text-xl font-bold mb-2">JavaScript</h3>
+
+    <div class="h-2 bg-white/10 rounded-full overflow-hidden">
+        <div class="w-[85%] h-full bg-pink-400 rounded-full"></div>
+    </div>
+
+</div>
+
+<div class="glass rounded-2xl p-6 text-center">
+    
+    <img 
+        src="logo tailwind.png" 
+        alt="Tailwind CSS Logo"
+        class="w-16 h-16 mx-auto mb-4"
+    >
+    <h3 class="text-xl font-bold mb-2">Tailwind</h3>
+    <div class="h-2 bg-white/10 rounded-full overflow-hidden">
+        <div class="w-[72%] h-full bg-cyan-400 rounded-full"></div>
+    </div>
+</div>
+
+<div class="glass rounded-2xl p-6 text-center">
+
+    <img 
+        src="logo java.png" 
+        alt="Java Logo"
+        class="w-16 h-16 mx-auto mb-4"
+    >
+    <h3 class="text-xl font-bold mb-4">Java</h3>
+
+    <div class="h-2 bg-white/10 rounded-full overflow-hidden">
+        <div class="w-[65%] h-full bg-cyan-400 rounded-full"></div>
+    </div>
+
+</div>
+
+<div class="glass rounded-2xl p-6 text-center">
+    <img 
+        src="logo python.png" 
+        alt="Python Logo"
+        class="w-16 h-16 mx-auto mb-2"
+    >
+    <h3 class="text-xl font-bold mb-4">Python</h3>
+    <div class="h-2 bg-white/10 rounded-full">
+        <div class="w-[68%] h-full bg-pink-400 rounded-full"></div>
+    </div>
+</div>
+
+<div class="glass rounded-2xl p-6 text-center">
+    <img 
+        src="logo C.png" 
+        alt="C Logo"
+        class="w-16 h-16 mx-auto mb-2"
+    >
+    <h3 class="text-xl font-bold mb-4">C</h3>
+    <div class="h-2 bg-white/10 rounded-full">
+        <div class="w-[88%] h-full bg-purple-400 rounded-full"></div>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="projects" class="glass rounded-[2rem] p-8">
+
+<div class="flex items-center justify-between mb-10">
+<div>
+<p class="text-gray-500 mb-2">06</p>
+
+<h2 class="text-4xl font-black">
+Mes <span class="gradient-text">projets</span>
+</h2>
+</div>
+
+<a href="#" class="text-cyan-400 text-sm">
+Voir tous →
+</a>
+</div>
+
+<div class="space-y-6">
+
+<div class="glass rounded-2xl overflow-hidden">
+
+<img
+src="photo site de materiels menagers.webp"
+class="w-full h-52 object-cover"
+/>
+
+<div class="p-6">
+<h3 class="text-2xl font-bold mb-3">
+Site de vente de matériels ménagers
+</h3>
+
+<p class="text-gray-400 text-sm mb-5">
+Site moderne de vente de matériels ménagers.
+</p>
+
+<div class="flex gap-3 flex-wrap mb-5">
+<span class="px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-400 text-sm">HTML</span>
+<span class="px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-sm">CSS</span>
+<span class="px-3 py-1 rounded-full bg-pink-500/10 text-pink-400 text-sm">JS</span>
+</div>
+
+<div class="flex gap-4">
+
+<a
+href="https://abdouaziz-portfolio.vercel.app"
+target="_blank"
+class="text-cyan-400"
+> 
+Demo
+</a>
+
+<a
+href="https://github.com/abdouaziz/portfolio"
+target="_blank"
+class="text-purple-400"
+> 
+GitHub
+</a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="glass rounded-2xl overflow-hidden mt-6">
+
+<img
+src="photo calculatrice.webp"
+class="w-full h-52 object-cover"
+/>
+
+<div class="p-6">
+
+<h3 class="text-2xl font-bold mb-3">
+Calculatrice JavaScript
+</h3>
+
+<p class="text-gray-400 text-sm mb-5">
+Application de calcul moderne développée avec JavaScript.
+</p>
+
+<div class="flex gap-3 flex-wrap mb-5">
+<span class="px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-400 text-sm">HTML</span>
+<span class="px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-sm">CSS</span>
+<span class="px-3 py-1 rounded-full bg-pink-500/10 text-pink-400 text-sm">JavaScript</span>
+</div>
+
+<div class="flex gap-4">
+<a href="https://portfolio'abdouaziz.vercel.app" target="_blank" class="text-cyan-400">Demo</a>
+<a href="https://github.com/dabakh27/portfolio-abdouaziz.git" target="_blank" class="text-purple-400">GitHub</a>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="glass rounded-[2rem] p-8">
+
+<p class="text-gray-500 mb-2">08</p>
+
+<h2 class="text-4xl font-black mb-8">
+Restons <span class="gradient-text">connectés</span>
+</h2>
+
+<div class="grid grid-cols-2 gap-4">
+
+<a href="https://github.com/dabakh27"
+target="_blank"
+class="glass rounded-2xl p-5 block hover:bg-white/10 transition">
+
+<h3 class="font-bold">
+   <i class="fa-brands fa-github mr-2"></i> GitHub
+</h3>
+
+<p class="text-sm text-gray-400">Voir profil</p>
+
+</a>
+
+<a href="https://snapchat.com/t/AraiSOe4"
+target="_blank"
+class="glass rounded-2xl p-5 block hover:bg-white/10 transition">
+
+<h3 class="font-bold">👻 Snapchat</h3>
+<p class="text-sm text-gray-400">Ajoute</p>
+
+</a>
+
+<a href="https://www.instagram.com/dabzo_buur_07?igsh=MWt5bnMxOG5paXZmNw%3D%3D&utm_source=qr"
+target="_blank"
+class="glass rounded-2xl p-5 block hover:bg-white/10 transition">
+
+<h3 class="font-bold">📸 Instagram</h3>
+<p class="text-sm text-gray-400">Me suivre</p>
+
+</a>
+
+<a href="www.tiktok.com/@dabzo_buur7"
+target="_blank"
+class="glass rounded-2xl p-5 block hover:bg-white/10 transition">
+<h3 class="font-bold">
+    <i class="fa-brands fa-tiktok mr-2"></i>TikTok
+</h3>
+<p class="text-sm text-gray-400">Voir profil</p>
+</a>
+
+<a href="mailto:abdouazizsysow6@gmail.com"
+   target="_blank"
+   class="glass rounded-2xl p-5 block hover:bg-white/10 transition">
+
+  <h3 class="font-bold">
+    <i class="fa-solid fa-envelope mr-2"></i> Email
+  </h3>
+  <p class="text-sm text-gray-400">Me contacter</p>
+</a>
+
+</div>
+
+</section>
+
+</div>
+
+</div>
+
+<footer class="text-center py-10 text-gray-500">
+© 2026 Abdou Aziz Sy Sow — Tous droits réservés.
+</footer>
+
+</div>
+
+</body>
+</html>
